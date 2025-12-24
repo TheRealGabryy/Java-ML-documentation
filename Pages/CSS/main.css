@@ -108,3 +108,82 @@ body {
 .img:hover {
     scale: 1.1;
 }
+
+.image {
+    height: 420px;
+    width: 760px;
+    border-radius: 14px;
+}
+
+.image:hover {
+    cursor: zoom-in;
+}
+
+.image:active {
+    scale: 2;
+}
+
+/* Style the container */
+.code-block {
+    background: #282c34;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.summary:hover {
+    cursor: pointer;
+}
+
+/* Style the clickable header */
+summary {
+    padding: 15px;
+    color: #abb2bf;
+    cursor: pointer;
+    list-style: none; /* Removes the default arrow in some browsers */
+    border-bottom: 1px solid #3e4451;
+    font-weight: bold;
+}
+
+summary:hover {
+    background: #323842;
+}
+
+/* Style the code area */
+.content {
+    position: relative;
+    padding: 20px;
+    background: #21252b;
+    color: #0089fa;
+}
+
+pre {
+    margin: 0;
+}
+
+/* Style the Copy Button */
+.copy-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #61afef;
+    border: none;
+    border-radius: 4px;
+    color: #282c34;
+    padding: 5px 10px;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+
+.copy-btn:hover {
+    background: #498cc7;
+}
+
+/* Feedback state when clicked */
+.copy-btn.copied {
+    background: #98c379;
+    color: white;
+}

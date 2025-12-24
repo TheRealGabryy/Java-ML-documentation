@@ -8,7 +8,7 @@
             <a href="../Code/start.php" class="button">Introduction</a>
         </li>
         <li>
-            <a href="../Code/start.php" class="button">Project Setup</a>
+            <a href="../Code/project-setup.php" class="button">Project Setup</a>
         </li>
         <li>
             <a href="../Code/start.php" class="button">Tokenizer</a>

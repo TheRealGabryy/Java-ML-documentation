@@ -29,8 +29,9 @@
             code, and mathematics. Every model is derived, implemented, and debugged line by line until it works because
             you understand it. This is where black boxes are dismantled, shortcuts are banned, and competence is forced.
             If you want real control over ML systems, not framework literacy, this is where you start.</p>
-        <p class="paragraph-text">In this section we'll go trough what you need to know to start coding <br>
-            ML algorithms from scratch in java, and later python. in this section you'll know how to code from scratch: </p>
+        <p class="paragraph-text">In this section we'll go through what you need to know to start coding <br>
+            ML algorithms from scratch in java, and later python. in this section you'll know how to code from scratch:
+        </p>
         <ul class="paragraph-list">
             <li>General Machine Learning</li>
             <li>Autoregressive Models</li>
@@ -51,14 +52,49 @@
         </p>
 
         <ul class="paragraph-list">
-            <li>Wx + B   > weighted sum of <a href="../Theory/neural-networks.php">neurons</a> </li>
+            <li>Wx + B > weighted sum of <a href="../Theory/neural-networks.php">neurons</a></li>
             <li>What is tokenization and how it works</li>
-            <li>What is the <a href="../Theory/bernulli-distribution.php">Bernulli Distribution</a> </li>
+            <li>What is the <a href="../Theory/bernulli-distribution.php">Bernulli Distribution</a></li>
             <li>Linear Algebra <b>(CRITICAL)</b></li>
             <li>Probability and statistics <b>(basics)</b></li>
+            <li>What is a Scanner and Random in java</li>
         </ul>
 
     </section>
+
+    <section class="section">
+        <p class="title">How to take this course</p>
+
+        <p class="paragraph-text">
+            This course will be a mix of TEXT, IMAGES and CODE you can copy and implement right away.
+        </p>
+        <p class="paragraph-text">
+            There will also be practice exercises, and when a big block of code is implemented, also the possibility to
+            <b>download</b> the src files for you to play around.
+        </p>
+        <p class="paragraph-text">
+            The modules are structured so you can follow it <b>Linearly</b> but if you already know, for example, how
+            tokenization work, you can skip that module.
+        </p>
+        <p class="paragraph-text">
+            Code snippsets will be <b>hidden </b>at first, so you can try to code it yourself. there will be the text
+            explanation of the code, and only THEN, then code, but it's better if you try yourself. keep in mind that
+            there is <b>no perfect algorithm</b> so if your code is different from the snippset but still works, it's
+            perfect, even <b>better</b>
+        </p>
+
+        <details class="code-block">
+            <summary class="summary">Example of Hidden block</summary>
+            <div class="content">
+            <pre><code>
+                def greet():
+                    print("This was hidden!")
+                    print("click again to close this")
+             </code></pre>
+            </div>
+        </details>
+    </section>
+
     <section class="section">
         <p class="title">Work Environment</p>
         <div class="img-container">
@@ -99,7 +135,8 @@
 
         <ul class="paragraph-list">
             <li>
-                <a href="https://www.datacamp.com/tutorial/bernoulli-distribution" target="_blank">Bernoulli Distribution</a>
+                <a href="https://www.datacamp.com/tutorial/bernoulli-distribution" target="_blank">Bernoulli
+                    Distribution</a>
             </li>
             <li>
                 <a href="https://en.wikipedia.org/wiki/Machine_learning" target="_blank">Intro do ML</a>
@@ -111,15 +148,33 @@
                 <a href="https://en.wikipedia.org/wiki/Machine_learning" target="_blank">Machine learning</a>
             </li>
             <li>
-                <a href="https://nebius.com/blog/posts/how-tokenizers-work-in-ai-models" target="_blank">Tokenizer</a> (Will come useful really often)
+                <a href="https://nebius.com/blog/posts/how-tokenizers-work-in-ai-models" target="_blank">Tokenizer</a>
+                (Will come useful really often)
             </li>
             <li>
-                <a href="https://www.geeksforgeeks.org/deep-learning/what-is-embedding-layer/" target="_blank">Embedding layer</a>
+                <a href="https://www.geeksforgeeks.org/deep-learning/what-is-embedding-layer/" target="_blank">Embedding
+                    layer</a>
             </li>
             <li>
-                <a href="https://www.baeldung.com/cs/neural-nets-embedding-layers" target="_blank">NN + embedding layer</a>
+                <a href="https://www.baeldung.com/cs/neural-nets-embedding-layers" target="_blank">NN + embedding
+                    layer</a>
             </li>
         </ul>
+    </section>
+
+    <section class="section">
+        <p class="title">
+            Why this website?
+        </p>
+
+        <p class="paragraph-text">
+            This website was <b>coded from scratch</b> for 3 reasons:<br><br> 1) rewrite all i know about AI and ML, since my
+            normal notes are a mess, this website is my custom repository of notes.<br><br> 2) to give value, there are NO
+            websites like this around, therefore i had to be the one to make it.<br><br> 3) to train my HTML/CSS/JS skills. in
+            fact, i want this website to be complete. if you are reading this i'm still at the "documentation" phase
+            where this is just a static website, it won't be like this forever, i will add chats, resources, videos, and
+            so much more!
+        </p>
     </section>
 </div>
 
