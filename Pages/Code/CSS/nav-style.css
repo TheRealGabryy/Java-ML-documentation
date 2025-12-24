@@ -1,11 +1,50 @@
 li {
-    font-weight: bold;
-    font-family: Zalando Sans SemiExpanded, sans-serif;
     margin-bottom: 10px;
-    font-size: 20px;
 }
 
 .button {
     text-decoration: none;
     color: black;
+    font-family: Arimo, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.inner {
+    text-decoration: none;
+    color: black;
+    font-family: Arimo, sans-serif;
+    font-size: 15px;
+}
+
+.title-menu {
+    text-align: center;
+    font-family: Zalando Sans SemiExpanded, sans-serif;
+    margin-top: 10px;
+}
+
+.title-bar {
+    font-family: Zalando Sans SemiExpanded, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.home-bar {
+    right: 40px;
+    position: fixed;
+    margin-top: -30px;
+    text-decoration: none;
+    color: black;
+    font-family: Zalando Sans SemiExpanded, sans-serif;
+    font-weight: bold;
+}
+
+.home-bar:hover {
+    color: #5c5b5b;
+}
+
+.button:hover {
+    color: #5C5B5BFF;
 }

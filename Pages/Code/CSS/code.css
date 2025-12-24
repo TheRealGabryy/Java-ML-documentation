@@ -1,0 +1,66 @@
+:root {
+    --top-nav-height: 64px;
+    --side-nav-width: 260px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #f3f2f2;
+}
+
+/* TOP NAV */
+.top-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    height: var(--top-nav-height);
+    z-index: 1000;
+
+    background: #ffffff;
+    border-bottom: 1px solid #1f1f1f;
+}
+
+/* LEFT NAV */
+.container {
+    position: fixed;
+    top: var(--top-nav-height);
+    left: 0;
+
+    width: var(--side-nav-width);
+    height: calc(100vh - var(--top-nav-height));
+
+    overflow-y: auto;
+
+    background: #ffffff;
+    border-right: 1px solid #1f1f1f;
+}
+
+/* RIGHT NAV */
+.container-right {
+    position: fixed;
+    top: var(--top-nav-height);
+    right: 0;
+
+    width: var(--side-nav-width);
+    height: calc(100vh - var(--top-nav-height));
+
+    overflow-y: auto;
+
+    background: #ffffff;
+    border-left: 1px solid #1f1f1f;
+}
+
+/* MAIN CONTENT */
+.paragraph {
+    margin-top: var(--top-nav-height);
+    margin-left: var(--side-nav-width);
+    margin-right: var(--side-nav-width);
+
+    padding: 40px;
+
+    line-height: 1.7;
+    max-width: 900px;
+}
