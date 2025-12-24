@@ -1,7 +1,3 @@
-<?php
-$currentPage = basename($_SERVER['PHP_SELF']);
-?>
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -11,17 +7,26 @@ $currentPage = basename($_SERVER['PHP_SELF']);
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../CSS/main.css">
     <link rel="stylesheet" href="../CSS/nav-style.css">
-    <title>neural Networks</title>
+    <title>Project SetUp in IntelliJ</title>
 </head>
 <body>
 <div class="top-nav">
-    <?php include '../nav//top-nav.php'; ?>
+    <?php include '../nav/top-nav.php'; ?>
 </div>
 
 <div class="container">
     <?php include '../nav/left-nav.php'; ?>
 </div>
 <div class="paragraph">
+    <section class="section">
+        <p class="title">Project Setup</p>
+        <p class="paragraph-text">Stay organized from step 1</p>
+
+        <ul class="paragraph-list">
+            <li>Create a folder, name it whatever, i named it "Ai_algorithms"</li>
+            <li>Create a new intelliJ project, give it a name, and make sure to check "create git repository"</li>
+        </ul>
+    </section>
 </div>
 
 <div class="container-right">
@@ -29,3 +34,4 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 </div>
 </body>
 </html>
+

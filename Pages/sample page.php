@@ -1,7 +1,3 @@
-<?php
-$currentPage = basename($_SERVER['PHP_SELF']);
-?>
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -11,17 +7,20 @@ $currentPage = basename($_SERVER['PHP_SELF']);
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../CSS/main.css">
     <link rel="stylesheet" href="../CSS/nav-style.css">
-    <title>neural Networks</title>
+    <title>Bernulli distribution</title>
 </head>
 <body>
 <div class="top-nav">
-    <?php include '../nav//top-nav.php'; ?>
+    <?php include '../nav/top-nav.php'; ?>
 </div>
 
 <div class="container">
     <?php include '../nav/left-nav.php'; ?>
 </div>
 <div class="paragraph">
+    <section class="section">
+        <p class="title">Bernulli Distribution</p>
+    </section>
 </div>
 
 <div class="container-right">

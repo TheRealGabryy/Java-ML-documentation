@@ -62,5 +62,49 @@ body {
     padding: 40px;
 
     line-height: 1.7;
-    max-width: 900px;
+    max-width: 1270px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    padding: 0 300px 0 300px;
+}
+
+.title {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Zalando Sans SemiExpanded, sans-serif;
+}
+
+.paragraph-text {
+    font-family: Merriweather, sans-serif;
+}
+.paragraph-list {
+    text-align: left;
+    font-family: Merriweather, sans-serif;
+}
+
+.aaaa {
+    text-align: center;
+    font-family: Merriweather, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+.img-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.img {
+    height: 160px;
+    width: 160px;
+    border-radius: 4px;
+    margin: 40px;
+}
+
+.img:hover {
+    scale: 1.1;
 }
