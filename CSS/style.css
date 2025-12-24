@@ -1,0 +1,120 @@
+body {
+    background: #dfdede;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: #ffffff;
+}
+
+.header-title {
+    color: black;
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Zalando Sans SemiExpanded, sans-serif;
+}
+
+.header-subtitle {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.about-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.title {
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Merriweather, sans-serif;
+}
+
+.paragraph {
+    font-size: 25px;
+    text-align: left;
+    font-family: Ubuntu, sans-serif;
+}
+
+.un-list {
+    font-size: 20px;
+    text-align: left;
+    font-family: Ubuntu, sans-serif;
+}
+
+.prerequisites-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 60vh;
+    background: #ffffff;
+}
+
+.big-paragraph {
+    font-size: 30px;
+    text-align: center;
+    font-family: Ubuntu, sans-serif;
+}
+
+.start-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.coding-button {
+    height: 80px;
+    width: 600px;
+    background : #fff;
+    font-size: 20px;
+}
+
+.theory-button {
+    margin-top: 20px;
+    height: 80px;
+    width: 600px;
+    background : #ffffff;
+    font-size: 20px;
+}
+
+.updates-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 60vh;
+    background: #ffffff;
+}
+
+.update {
+    font-size: 35px;
+}

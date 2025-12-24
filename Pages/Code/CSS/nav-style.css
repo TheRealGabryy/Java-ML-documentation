@@ -1,0 +1,11 @@
+li {
+    font-weight: bold;
+    font-family: Zalando Sans SemiExpanded, sans-serif;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.button {
+    text-decoration: none;
+    color: black;
+}
