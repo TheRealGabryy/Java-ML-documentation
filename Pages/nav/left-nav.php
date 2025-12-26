@@ -11,7 +11,7 @@
             <a href="../Code/project-setup.php" class="button">Project Setup</a>
         </li>
         <li>
-            <a href="../Code/start.php" class="button">Tokenizer</a>
+            <a href="../Code/tokenizer.php" class="button">Tokenizer</a>
             <ul class="menu-items">
                 <li class="inner-li">
                     <a href="../Code/start.php" class="inner">Token Mapping</a>
